@@ -23,11 +23,9 @@ public class Payment {
   private Instant moment;
 
 
-
   @OneToOne
   @MapsId
   private Order order;
-  
   
   
   public Payment() {
